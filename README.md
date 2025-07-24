@@ -130,7 +130,7 @@ tl_model = Model(inputs=base_model.input, outputs=predictions)
 
 ## 🧪 Confusion Matrix (MobileNetV2)
 
-![Confusion Matrix](assets/confusion_matrix.png)
+![Confusion Matrix](assests/Screenshot 2025-07-24 132344.png)
 
 ---
 
@@ -140,7 +140,7 @@ tl_model = Model(inputs=base_model.input, outputs=predictions)
 
 ### MobileNetV2 Loss & Accuracy
 
-| ![Train vs Val Loss](assets/train_val_loss.png) | ![Train vs Val Accuracy](assets/train_val_accuracy.png) |
+| ![Train vs Val Loss](assests/Screenshot 2025-07-24 132258.png) | ![Train vs Val Accuracy](assests/Screenshot 2025-07-24 132258.png) |
 |--------------------------------------------------|----------------------------------------------------------|
 
 ---
@@ -192,7 +192,7 @@ brain-tumor-classification/
 
 ---
 
-## 🤝 Contributors
+## 🤝 Made by-
 
 - Aditya Singh 
 
