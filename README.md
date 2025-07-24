@@ -128,9 +128,11 @@ tl_model = Model(inputs=base_model.input, outputs=predictions)
 
 ---
 
-## 🧪 Confusion Matrix (MobileNetV2)
+## 🧪 Confusion Matrix (Custom CNN and MobileNetV2)
 
-![Confusion Matrix](assests/Screenshot 2025-07-24 132344.png)
+| ![Confusion Matrix](https://github.com/AdItYaSiNhG/Brain_Tumor_MRI_ML/blob/main/assests/Screenshot%202025-07-24%20132334.png) | ![Confusion Matrix](https://github.com/AdItYaSiNhG/Brain_Tumor_MRI_ML/blob/main/assests/Screenshot%202025-07-24%20132344.png) |
+|--------------------------------------------------|----------------------------------------------------------|
+
 
 ---
 
@@ -138,9 +140,9 @@ tl_model = Model(inputs=base_model.input, outputs=predictions)
 
 
 
-### MobileNetV2 Loss & Accuracy
+### Loss & Accuracy - CNN + Transfer_Learning(MobileNetV2)
 
-| ![Train vs Val Loss](assests/Screenshot 2025-07-24 132258.png) | ![Train vs Val Accuracy](assests/Screenshot 2025-07-24 132258.png) |
+| ![Train vs Val Loss](https://github.com/AdItYaSiNhG/Brain_Tumor_MRI_ML/blob/main/assests/Screenshot%202025-07-24%20132322.png) | ![Train vs Val Accuracy](https://github.com/AdItYaSiNhG/Brain_Tumor_MRI_ML/blob/main/assests/Screenshot%202025-07-24%20132258.png) |
 |--------------------------------------------------|----------------------------------------------------------|
 
 ---
@@ -149,14 +151,15 @@ tl_model = Model(inputs=base_model.input, outputs=predictions)
 
 The model is deployed using **Streamlit** for real-time tumor prediction.
 
+Demo video drive link - (https://drive.google.com/file/d/1gUyM0TJT_lLZnw--HPXQOA9psIaSiGyc/view?usp=sharing)
 
+PS- I know the quality is bad , sorry about that.
 
 ### 🛠️ How to Run the App
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/brain-tumor-classification.git
-cd brain-tumor-classification
+git clone https://github.com/AdItYaSiNhG/Brain_Tumor_MRI_ML.git
 
 # Install dependencies
 pip install -r requirements.txt
